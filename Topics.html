@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Real</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">Real</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Kevin Anderson</h6>
+              <span>Web Designer</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar" >
+    <ul class="sidebar-nav" id="sidebar-nav" >
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">
+                <i class="bi bi-grid"></i>
+                <span>Dashboard</span>
+            </a>
+        </li><!-- End Dashboard Nav -->
+
+        <!-- Topics with icons -->
+      
+
+        <li class="nav-item">
+            <a class="nav-link" href="topics-of-interest.html">
+                <i class="bi bi-star"></i>
+                <span>Topics of Interest</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="schedule-session.html">
+                <i class="bi bi-calendar"></i>
+                <span>Schedule a Session</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="upcoming-sessions.html">
+                <i class="bi bi-clock"></i>
+                <span>Upcoming Sessions</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="session-history.html">
+                <i class="bi bi-journal-text"></i>
+                <span>Session History</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="session-history.html">
+              <i class="bi bi-journal-text"></i>
+              <span>Communication and feeds</span>
+          </a>
+      </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="notifications.html">
+                <i class="bi bi-bell"></i>
+                <span>Notifications</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="account-settings.html">
+                <i class="bi bi-gear"></i>
+                <span>Account and Settings</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="support-center.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Support and Help Center</span>
+            </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="user-profile.html">
+              <i class="bi bi-person"></i>
+              <span>User Profile</span>
+          </a>
+      </li>
+        <li class="nav-item">
+            <a class="nav-link" href="logout.html">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Logout</span>
+            </a>
+        </li>
+
+    
+
+     
+
+   
+
+    </ul>
+</aside>
+      <!-- End Components Nav -->
+
+
+ 
+  <!-- End Sidebar-->
+<!--Searchbar-->
+
+    <!-- End Search Icon-->
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Blank Page</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Pages</li>
+          <li class="breadcrumb-item active">Blank</li>
+        </ol>
+      </nav>
+    </div>
+   
+    <section id="features" class="features">
+      <div class="container">
+  
+          <div class="section-title" data-aos="fade-up">
+              <h2>Some of topics You Can Talk About</h2>
+              <p style="color: purple;">Explore a Variety of Topics</p>
+          </div>
+          <div class="form-outline">
+            <input type="search" id="form1" class="form-control" placeholder="Search Topics" aria-label="Search" />
+          </div>
+          <br>
+          <br>
+          <div class="row" data-aos="fade-left">
+              <div class="col-lg-3 col-md-4">
+                  <div class="icon-box" data-aos="zoom-in" data-aos-delay="50" style="background-color: #ff8ab1;">
+                      <i class="ri-heart-2-line" style="color: #ffbb2c;"></i>
+                      <h3><a href="#">Love & Relationships</a></h3>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                  <div class="icon-box" data-aos="zoom-in" data-aos-delay="100" style="background-color: #a075e7;">
+                      <i class="ri-group-line" style="color: #5578ff;"></i>
+                      <h3><a href="#">Friendship & Social</a></h3>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                  <div class="icon-box" data-aos="zoom-in" data-aos-delay="150" style="background-color: #ff6cf2;">
+                      <i class="ri-book-line" style="color: #e80368;"></i>
+                      <h3><a href="#">Education & Growth</a></h3>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                  <div class="icon-box" data-aos="zoom-in" data-aos-delay="200" style="background-color: #dab9ff;">
+                      <i class="ri-health-book-line" style="color: #e361ff;"></i>
+                      <h3><a href="#">Mental Health & Well-being</a></h3>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="350" style="background-color: #ffb15e;">
+                    <i class="ri-briefcase-4-line" style="color: #11dbcf;"></i>
+                    <h3><a href="#">Career & Goals</a></h3>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="400" style="background-color: #ab98f2;">
+                    <i class="ri-artboard-2-line" style="color: #4233ff;"></i>
+                    <h3><a href="#">Creativity & Arts</a></h3>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="450" style="background-color: #ff9d76;">
+                    <i class="ri-sun-line" style="color: #b2904f;"></i>
+                    <h3><a href="#">Wellness & Relaxation</a></h3>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="500" style="background-color: #75f2a3;">
+                    <i class="ri-moon-line" style="color: #29cc61;"></i>
+                    <h3><a href="#">Sleep & Rest</a></h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="550" style="background-color: #ff8a8a;">
+                  <i class="ri-hand-heart-line" style="color: #ff5828;"></i>
+                  <h3><a href="#">Emotional Support</a></h3>
+              </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="600" style="background-color: #84c7ff;">
+                  <i class="ri-user-voice-line" style="color: #23b7ff;"></i>
+                  <h3><a href="#">Communication Skills</a></h3>
+              </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="650" style="background-color: #ffbf7a;">
+                  <i class="ri-brain-line" style="color: red;"></i>
+                  <h3><a href="#">Mental Clarity</a></h3>
+              </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="700" style="background-color: #f4a2ff5a;">
+                  <i class="ri-lightbulb-flash-line" style="color: #af6fff;"></i>
+                  <h3><a href="#">Inspiration & Ideas</a></h3>
+              </div>
+          </div>
+          
+
+            <!-- Card 13 -->
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="700" style="background-color: palegreen;">
+                  <i class="ri-star-line" style="color: orange;"></i>
+                  <h3><a href="#">Self-development</a></h3>
+              </div>
+          </div>
+            <!-- Card 14 -->
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="700" style="background-color: blue;">
+                <i class="ri-star-line" style="color: turquoise;"></i>
+                  <h3><a href="#">Physical Fit</a></h3>
+              </div>
+          </div>
+          
+            <!-- Card 15 -->
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="700" style="background-color: peachpuff;">
+                <i class="ri-cup-line" style="color: #e65100;"></i>
+                  <h3><a href="#">Nutrion & Diets</a></h3>
+              </div>
+          </div>
+          
+            <!-- Card 16 -->
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="700" style="background-color: plum;">
+                <i class="ri-brush-2-line" style="color: purple"></i>
+                  <h3><a href="#">Arts & Crafts</a></h3>
+              </div>
+          </div>
+          
+            <!-- Card 17 -->
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="250" style="background-color: #ffcc80;">
+                <i class="ri-cup-line" style="color: #e65100;"></i>
+                <h3><a href="#">Coffee & Conversations</a></h3>
+              </div>
+            </div>
+          
+            <!-- Card 18 -->
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="300" style="background-color: #8bf5ff;">
+                <i class="ri-gift-line" style="color: #00acc1;"></i>
+                <h3><a href="#">Random Acts of Kindness</a></h3>
+              </div>
+            </div>
+          
+            <!-- Card 19 -->
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="350" style="background-color: brown;">
+                <i class="ri-group-line" style="color: white;"></i>
+                <h3><a href="#">Family Issues</a></h3>
+              </div>
+            </div>
+          
+            <!-- Card 20 -->
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="400" style="background-color: #ff9e80;">
+                <i class="ri-walk-line" style="color: #e64a19;"></i>
+                <h3><a href="#">Nature Walks</a></h3>
+              </div>
+            </div>
+          
+            <!-- Card 21 -->
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="450" style="background-color: #cfd8dc;">
+                <i class="ri-movie-2-line" style="color: #455a64;"></i>
+                <h3><a href="#">Dreams</a></h3>
+              </div>
+            </div>
+          
+            <!-- Card 22 -->
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="500" style="background-color: #b2ebf2;">
+                <i class="ri-bubble-chart-line" style="color: #00838f;"></i>
+                <h3><a href="#">Religion</a></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="500" style="background-color: #b2ebf2;">
+                <i class="ri-bubble-chart-line" style="color: #00838f;"></i>
+                <h3><a href="#">Anxiety</a></h3>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="500" style="background-color: #b2ebf2;">
+                  <i class="ri-bubble-chart-line" style="color: #00838f;"></i>
+                  <h3><a href="#"></a></h3>
+                </div>
+              </div>
+            </div>
+
+
+  <!-- ======= Footer ======= -->
+  <!--footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Real</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+     
+      Designed by <a href="">shamayel</a>
+    </div>
+  </!--footer--><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
